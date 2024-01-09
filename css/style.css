@@ -1,41 +1,17 @@
+
 /* 
     RESET
 */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* 
-    GENERAL
-*/
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.img-container {
-  position: relative;
-  overflow: hidden;
-  width: 300px;
-  height: 200px;
-}
 
-img {
-  width: 100%;
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 500px;
   height: auto;
-  display: none;
+  margin: auto;
 }
-
-.active {
-  display: block;
-}
-  
-
-/* 
-    DEBUG
-*/
